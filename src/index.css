@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: "Liberation", Liberation, Serif;
+}
+
+#root{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.slot {
+  width: 98px;
+  height: 98px;
+  border: none;
+  outline: none;
+  padding-left: 7.5px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.column {
+  width: 110px;
+  height: 610px;
+  padding: none;
+  background-image: linear-gradient(0deg, #005aff, #3946da);
+  border-radius: 12px;
+  display: table-cell;
+  vertical-align: bottom;
+}
+
+.board {
+  height: 100px;
+}
+
+.pick-slot {
+  width: 105px;
+  height: 15px;
+  border: 1.5px solid black;
+  outline: none;
+  border-radius: 4px;
+  background-color: #b3b3b3;
+}
+
+.button-holder {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ssh {
+  border: none;
+  outline: none;
+  padding: none;
+  background-color:transparent;
+}
+
+.game {
+  padding-left: 5px;
+}
+.game-board {
+  width: 770px;
+}
+
+.status {
+  text-align: center;
+  color: #00f3ff;
+  height: 25px;
+  width: 839.5px;
+  border-radius: 6px;
+  line-height: 25px;
+  background-color: #005aff;
+  font-weight: bold;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+.backforth {
+  width: 839.5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bfbutton {
+  font-family: "Liberation", Liberation, Serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.board-holder {
+  border-top:5px solid transparent;
+  display:flex;
+  align-items: center;
+  border-radius: 12px;
+  width: 844.5px;
+  height: 657px;
+  background-color: transparent;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
